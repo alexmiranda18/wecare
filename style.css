@@ -1,0 +1,152 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+
+}
+
+.img-logo {
+    height: 500px;
+    width: 568px;
+    margin: 0px 0px 0px 125px;
+    display: inline-block;
+    position: relative;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+    margin-left: 86px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    width: 448px;
+    height: 71px;
+    margin-left: 86px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    margin-left: 86px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.button-footer {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    border: none;
+    margin: 65px 0 243px 86px;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, -0, -0, -0, 25));
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+
+    .main {
+        height: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-logo {
+        display: block;
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0px 14px;
+    }
+
+    .paragrafo {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        margin: 24px 64px 7px 64px;
+        ;
+        width: 263px;
+        height: 52px;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 17px 75px 17px 75px;
+        width: 232px;
+        height: 37px;
+        text-align: center;
+    }
+
+    .button-footer {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        height: 64px;
+        width: 239px;
+    }
+}
