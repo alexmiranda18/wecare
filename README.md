@@ -24,6 +24,8 @@ A aplicação consiste em uma página inicial de uma loja, onde foi trabalhado v
 
 ## Implantação em produção
 
+- Figma
+
 - Front end web: Netlify
 
 # Autor
